@@ -12,7 +12,7 @@ export default function App() {
             Drew Sirenko Loves Figma
           </h1>
           <p className="text-slate-600 max-w-2xl mx-auto">
-            I wanted to try out showcase my love for Figma while trying out Figma Make :)
+            I've been a Figma fan since 2020, met the lovely Lauren Ryan and Miggi from Figgi in 2022, and love using FigJam and Figma Slides at AWS :)
           </p>
         </div>
 
@@ -28,20 +28,21 @@ export default function App() {
             >
               {/* FigJam-style corner fold */}
               <div className="absolute top-0 right-0 w-6 h-6 bg-[#ff7262] rounded-bl-2xl rounded-tr-3xl"></div>
-              
-{/* Caption */}
+
+
+  {/* Caption */}
               <div className="text-white">
-                <h3 className="text-xl mb-2 text-center">Me freaking out over Figma</h3>
+                <h3 className="text-xl mb-2 text-center">My cherished memento from 2022</h3>
               </div>
 
               {/* Image container */}
               <div className="bg-white rounded-2xl p-4 mb-4 shadow-inner">
                 <ImageWithFallback
-                  src={figmaTruck1}
-                  alt="Drew posing with Figma Ice Cream Truck"
+                  src={figmaTruck2}
+                  alt="Polaroid of Drew posing with Figma Ice Cream Truck"
                   className="w-full h-auto object-contain rounded-xl"
                 />
-              </div>
+              </div>            
               
               
             </div>
@@ -60,17 +61,18 @@ export default function App() {
               
 {/* Caption */}
               <div className="text-white">
-                <h3 className="text-xl mb-2 text-center">My cherished polaroid memento from 2022</h3>
+                <h3 className="text-xl mb-2 text-center">Me freaking out over Figma hats</h3>
               </div>
 
               {/* Image container */}
               <div className="bg-white rounded-2xl p-4 mb-4 shadow-inner">
                 <ImageWithFallback
-                  src={figmaTruck2}
-                  alt="Polaroid of Drew posing with Figma Ice Cream Truck"
+                  src={figmaTruck1}
+                  alt="Drew posing with Figma Ice Cream Truck"
                   className="w-full h-auto object-contain rounded-xl"
                 />
               </div>
+
               
               
             </div>
@@ -89,7 +91,7 @@ export default function App() {
         {/* Footer message */}
         <div className="text-center mt-8">
           <p className="text-slate-500 italic">
-            Made with ❤️ and a touch of Figma magic
+            Made with oh so much ❤️ and Figma Make
           </p>
         </div>
       </div>

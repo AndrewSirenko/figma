@@ -1,6 +1,6 @@
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
-import figmaTruck1 from './assets/images/figma-truck-1.png';
-import figmaTruck2 from './assets/images/figma-truck-2.png';
+import figmaTruck1 from './assets/images/figma-truck-1-opt.jpg';
+import figmaTruck2 from './assets/images/figma-truck-2-opt.jpg';
 
 export default function App() {
   return (
